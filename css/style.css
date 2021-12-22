@@ -20,6 +20,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../fonts/Work-Sans/600/WorkSans-SemiBold.eot') format('embedded-opentype'),
+        url('../fonts/Work-Sans/600/WorkSans-SemiBold.woff2') format('woff2'),
+        url('../fonts/Work-Sans/600/WorkSans-SemiBold.woff') format('woff'),
+        url('../fonts/Work-Sans/600/WorkSans-SemiBold.ttf') format('truetype'),
+        url('../fonts/Work-Sans/600/WorkSans-SemiBold.svg#WorkSans-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -32,22 +43,18 @@ body {
 }
 
 .header {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: grid;    
     justify-items: center;
-    align-items: center;
-
-    padding: 9px 13px 10px 14px;
+    align-items: center;    
+    background-color: #FFFFFF;
 }
 
 .logo {
+    grid-area: header-A;
     justify-self: start;
 
     text-decoration: none;
     font-family: 'Work Sans';
-    font-weight: 500;
-    line-height: 31px;
-    font-size: 25px;
     cursor: pointer;
 }
 
@@ -63,83 +70,127 @@ body {
     color: #373737;
 }
 
-.nav {
-    width: 24px;
-    height: 24px;
-    justify-self: end;
+.header__nav {
+    grid-area: header-B;
     display: grid;
-
-    background: url(../images/2.svg) no-repeat;
+    justify-items: center;
+    align-items: center;
+    user-select: none;
 }
 
-.nav:focus {
+.header__nav:focus {
     outline: 1px solid #FF5300;
 }
 
-.nav_a {
+.header__nav__a {
     color: #373737;
+    text-decoration: none;
+    font-family: 'Work Sans';
+    color: #000000;
 }
 
-.style__icon {
+.header__nav__a:focus {
+    outline: 1px solid #FF5300;
+}
+
+.header__style__icon {
+    grid-area: header-C;
     justify-self: center;
     cursor: pointer;
 }
 
-.style__icon:focus {
+.header__style__icon:focus {
     outline: 1px solid #FF5300;
 }
 
 @media (max-width: 767px) {
 
-    .nav {
-        cursor: pointer;
+    .logo {
+        font-weight: 500;
+        line-height: 31px;
+        font-size: 25px;
     }
 
-    .nav_a {
+    .header {
+        grid-template-areas:    'header-A header-C header-B';
+        grid-template-columns: repeat(3, 1fr);
+        padding: 9px 13px 10px 14px;
+    }
+
+    .header__nav {
+        width: 24px;
+        height: 24px;
+        justify-self: end;
+        background: url(../images/2.svg) no-repeat;
+        cursor: pointer;        
+    }
+
+    .header__nav__a {
         position: absolute;
         visibility: hidden;
+        width: 100vw;
+        left: 0px;        
+
+        text-align: center;
+        background-color: #FFF7F4;
+        font-weight: 500;
+        line-height: calc(683px / 6);
+        font-size: 25px;
     }
-    .nav_a:hover {
+    .header__nav__a:hover {
         color: #FF5300;
     }
 
-    .nav:focus > .nav_a {
-        visibility: visible;
-        top: 51px;
-        left: 0px;
-        line-height: calc(683px / 6);
-        width: 100vw;
-
-        text-decoration: none;
-        text-align: center;
-        background-color: #FFF7F4;
+    .header__nav:focus > .header__nav__a {
+        visibility: visible;        
     }
 
-    .nav:focus > .a-Home {
-        top: 51px;
+    .header__nav:focus > .a-Home {
+        top: 50px;
     }
-    .nav:focus > .a-About {
-        top: 164px;
+    .header__nav:focus > .a-About {
+        top: 163px;
     }
-    .nav:focus > .a-Work {
-        top: 277px;
+    .header__nav:focus > .a-Work {
+        top: 276px;
     }
-    .nav:focus > .a-Clients {
-        top: 390px;
+    .header__nav:focus > .a-Clients {
+        top: 389px;
     }
-    .nav:focus > .a-Blog {
-        top: 503px;
+    .header__nav:focus > .a-Blog {
+        top: 502px;
     }    
-    .nav:focus > .a-Contact {
-        top: 616px;
+    .header__nav:focus > .a-Contact {
+        top: 615px;
     }    
 
 }
 
-@media (min-width: 768px) {
-    /* .header {
-        grid-template-columns: fit-content(100%) 1fr fit-content(100%);
-    } */
+@media (min-width: 768px) and (max-width: 1440px) {
+
+    .logo {
+        font-weight: 600;
+        line-height: 25px;
+        font-size: 20px;
+    }
+
+    .header {
+        grid-template-areas:    'header-A header-B header-C';
+        grid-template-columns: max-content 1fr max-content;
+        padding: 27px 38px 28px 40px;
+    }
+
+    .header__nav {
+        margin-left: 28px;
+        margin-right: 29px;
+        grid-template-columns: repeat(6, fit-content(100%));
+        column-gap: 25px;
+
+        font-weight: 400;
+        line-height: 24px;
+        font-size: 16px;
+    }
+
 }
 
 @media (min-width: 1440px) {
