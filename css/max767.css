@@ -1,0 +1,62 @@
+@media (max-width: 767px) {
+
+    .logo {
+        font-weight: 500;
+        line-height: 31px;
+        font-size: 25px;
+    }
+
+    .header {
+        grid-template-areas:    'header-A header-C header-B';
+        grid-template-columns: repeat(3, 1fr);
+        padding: 9px 13px 10px 14px;
+    }
+
+    .header__nav {
+        width: 24px;
+        height: 24px;
+        justify-self: end;
+        background: url(../images/2.svg) no-repeat;
+        cursor: pointer;        
+    }
+
+    .header__nav__a {
+        position: absolute;
+        visibility: hidden;
+        width: 100vw;
+        left: 0px;        
+
+        text-align: center;
+        background-color: #FFF7F4;
+        font-weight: 500;
+        line-height: calc(683px / 6);
+        font-size: 25px;
+    }
+    .header__nav__a:hover {
+        color: #FF5300;
+    }
+
+    .header__nav:focus > .header__nav__a {
+        visibility: visible;        
+    }
+
+    .header__nav:focus > .a-Home {
+        top: 50px;
+    }
+    .header__nav:focus > .a-About {
+        top: 163px;
+    }
+    .header__nav:focus > .a-Work {
+        top: 276px;
+    }
+    .header__nav:focus > .a-Clients {
+        top: 389px;
+    }
+    .header__nav:focus > .a-Blog {
+        top: 502px;
+    }    
+    .header__nav:focus > .a-Contact {
+        top: 615px;
+    }    
+
+}
