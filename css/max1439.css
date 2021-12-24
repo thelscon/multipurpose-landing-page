@@ -8,13 +8,12 @@
 
     .header {
         grid-template-areas:    'header-A header-B header-C';
-        grid-template-columns: max-content 1fr max-content;
+        grid-template-columns: max-content minmax(max-content, 1fr) minmax(max-content, 83px);
+        column-gap: 28px;
         padding: 27px 38px 28px 40px;
     }
 
     .header__nav {
-        margin-left: 28px;
-        margin-right: 29px;
         grid-template-columns: repeat(6, fit-content(100%));
         column-gap: 25px;
         justify-self: center;

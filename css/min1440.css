@@ -8,18 +8,15 @@
 
     .header {
         grid-template-areas:    'header-A header-B header-C';
-        grid-template-columns: max-content 1fr max-content;
-        justify-content: center;
-        justify-items: center;
+        grid-template-columns: max-content minmax(max-content, 1fr) minmax(max-content, 162px);
+        column-gap: 77px;
         padding: 26px 135px;
     }
 
     .header__nav {
-        margin-left: 77px;
-        margin-right: 77px;
         grid-template-columns: repeat(6, fit-content(100%));
         column-gap: 38px;
-        justify-self: start;
+        justify-self: center;
 
         font-weight: 500;
         line-height: 25px;

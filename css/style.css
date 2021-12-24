@@ -111,7 +111,7 @@ body {
 
 .header__style__icon {
     grid-area: header-C;
-    justify-self: center;
+    justify-self: end;
     cursor: pointer;
 }
 
