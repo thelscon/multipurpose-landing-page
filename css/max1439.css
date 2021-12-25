@@ -8,8 +8,9 @@
 
     .header {
         grid-template-areas:    'header-A header-B header-C';
-        grid-template-columns: max-content minmax(max-content, 1fr) minmax(max-content, 83px);
+        grid-template-columns: max-content max-content minmax(max-content, 83px);
         column-gap: 28px;
+        justify-content: space-between;
         padding: 27px 38px 28px 40px;
     }
 

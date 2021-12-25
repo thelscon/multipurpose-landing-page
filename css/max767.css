@@ -59,4 +59,7 @@
         top: 615px;
     }    
 
+    .header__choiсe-of-style {
+        justify-self: center;
+    }
 }

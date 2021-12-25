@@ -1,5 +1,6 @@
 @import url(./max767.css);
 @import url(./max1439.css);
+@import url(./min768.css);
 @import url(./min1440.css);
 
 @font-face {
@@ -53,6 +54,7 @@ body {
     max-width: 1440px;
     width: 100%;
     display: grid;    
+    justify-items: center;
     align-items: center;    
 }
 
@@ -109,13 +111,18 @@ body {
     outline: 1px solid #FF5300;
 }
 
-.header__style__icon {
+.header__choiсe-of-style {
+    width: 24px;
+    height: 24px;
     grid-area: header-C;
-    justify-self: end;
     cursor: pointer;
+
+    background-image: url(../images/3.svg);
+    background: no-repeat center;
+    border: 0;
 }
 
-.header__style__icon:focus {
+.header__choiсe-of-style:focus {
     outline: 1px solid #FF5300;
 }
 
