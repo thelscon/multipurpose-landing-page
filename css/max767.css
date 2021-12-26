@@ -6,13 +6,21 @@
         font-size: 25px;
     }
 
-    .header {
-        grid-template-areas:    'header-A header-C header-B';
+    .hero {
+        row-gap: 50px;
+        padding-bottom: 50px;
+        grid-template-areas:    'hero-A'
+                                'hero-B'
+                                'hero-C';
+    }
+
+    .hero__header {
+        grid-template-areas: 'hero__header-A hero__header-C hero__header-B';
         grid-template-columns: repeat(3, 1fr);
         padding: 9px 13px 10px 14px;
     }
 
-    .header__nav {
+    .hero__header__nav {
         width: 24px;
         height: 24px;
         justify-self: end;
@@ -20,7 +28,7 @@
         cursor: pointer;        
     }
 
-    .header__nav__a {
+    .hero__header__nav__a {
         position: absolute;
         visibility: hidden;
         width: 100vw;
@@ -32,34 +40,62 @@
         line-height: calc(683px / 6);
         font-size: 25px;
     }
-    .header__nav__a:hover {
+    .hero__header__nav__a:hover {
         color: #FF5300;
     }
 
-    .header__nav:focus > .header__nav__a {
+    .hero__header__nav:focus > .header__nav__a {
         visibility: visible;        
     }
 
-    .header__nav:focus > .a-Home {
+    .hero__header__nav:focus > .a-Home {
         top: 50px;
     }
-    .header__nav:focus > .a-About {
+    .hero__header__nav:focus > .a-About {
         top: 163px;
     }
-    .header__nav:focus > .a-Work {
+    .hero__header__nav:focus > .a-Work {
         top: 276px;
     }
-    .header__nav:focus > .a-Clients {
+    .hero__header__nav:focus > .a-Clients {
         top: 389px;
     }
-    .header__nav:focus > .a-Blog {
+    .hero__header__nav:focus > .a-Blog {
         top: 502px;
     }    
-    .header__nav:focus > .a-Contact {
+    .hero__header__nav:focus > .a-Contact {
         top: 615px;
     }    
 
-    .header__choiсe-of-style {
+    .hero__header__choiсe-of-style {
         justify-self: center;
+    }
+
+    .hero__section {
+        row-gap: 18px;
+        justify-items: center;
+    }
+
+    .hero__image {
+        width: 335px;
+        height: 225px;
+    }
+
+    .hero__section_margin {
+        margin: 0px 27px 0px 26px;
+    }
+
+    .hero__section__h2 {
+        font-size: 31px;
+        line-height: 39px;
+        text-align: center;
+    }
+
+    .hero__section__p {
+        text-align: center;
+    }
+
+    .hero__section__button {
+        margin-top: 7px;
     }
 }

@@ -1,7 +1,24 @@
 @media (min-width: 768px) {
 
-    .header__choiсe-of-style {
+    .hero {
+        grid-template-areas:    'hero-A hero-A'
+                                'hero-C hero-B';
+    }
+
+    .hero__header__choiсe-of-style {
         justify-self: end;
+    }
+
+    .hero__section {
+        justify-items: start;
+    }
+
+    .hero__section__h2 {
+        text-align: left;
+    }
+
+    .hero__section__p {
+        text-align: left;
     }
 
 }
