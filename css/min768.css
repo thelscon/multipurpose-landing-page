@@ -9,6 +9,10 @@
         justify-self: end;
     }
 
+    .hero__header::after {
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    }
+
     .hero__section {
         justify-items: start;
     }
@@ -19,6 +23,10 @@
 
     .hero__section__p {
         text-align: left;
+    }
+
+    .hero__social {
+        display: grid;
     }
 
 }

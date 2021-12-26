@@ -60,13 +60,23 @@ body {
 }
 
 .hero {
+    position: relative;
     width: 100%;
+    max-width: 1440px;
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
     align-items: start;
 
     font-family: 'Work Sans';
+}
+
+.hero::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    width: 100vw;
+    height: 100%;
     background-color: #FFF7F4;
 }
 
@@ -176,5 +186,34 @@ body {
     color: #FFFFFF;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
     filter: drop-shadow(4px 5px 15px rgba(255, 83, 0, 0.4));
+}
+
+.hero__social {
+    position: absolute;
+    row-gap: 5px;
+    right: 0px;
+}
+
+.hero__social__a {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero__social__a:hover {
+    background-color: #FF5300;
+    box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+}
+
+.hero__social__a__icon {
+    fill: #FF5300;
+}
+
+.hero__social__a:hover .hero__social__a__icon {
+    fill: #FFFFFF;
 }
 
