@@ -44,8 +44,8 @@
         color: #FF5300;
     }
 
-    .hero__header__nav:focus > .header__nav__a {
-        visibility: visible;        
+    .hero__header__nav:focus > .hero__header__nav__a {
+        visibility: visible;     
     }
 
     .hero__header__nav:focus > .a-Home {
@@ -97,6 +97,10 @@
 
     .hero__section__button {
         margin-top: 7px;
+    }
+
+    .hero__wrap-social {
+        width: 100%;
     }
 
     .hero__social {

@@ -25,6 +25,10 @@
         text-align: left;
     }
 
+    .hero__wrap-social {
+        width: 100vw;
+    }
+
     .hero__social {
         display: grid;
     }
