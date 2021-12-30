@@ -1,5 +1,6 @@
 @import url(./max767.css);
 @import url(./max1439.css);
+@import url(./768-1439.css);
 @import url(./min768.css);
 @import url(./min1440.css);
 
@@ -86,7 +87,6 @@ body {
     position: absolute;
     z-index: -1;
     content: '';
-    width: 100vw;
     height: 100%;
     background-color: #FFFFFF;
 }

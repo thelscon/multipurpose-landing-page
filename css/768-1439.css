@@ -1,0 +1,60 @@
+@media (min-width: 768px) and (max-width: 1440px) {
+
+    .logo {
+        font-weight: 600;
+        line-height: 25px;
+        font-size: 20px;
+    }
+
+    .hero {
+        padding-bottom: 73px;
+        column-gap: 19px;
+        row-gap: 73px;
+    }
+
+    .hero__header {
+        grid-template-areas: 'hero__header-A hero__header-B hero__header-C';
+        grid-template-columns: max-content max-content minmax(max-content, 83px);
+        column-gap: 28px;
+        justify-content: space-between;
+        padding: 27px 38px 28px 40px;
+    }
+
+    .hero__header__nav {
+        grid-template-columns: repeat(6, fit-content(100%));
+        column-gap: 25px;
+        justify-self: center;
+
+        font-weight: 400;
+        line-height: 24px;
+        font-size: 16px;
+    }
+
+    .hero__image {
+        margin: 16px 53px 0px 0px;
+        width: 307px;
+        height: 207px;
+    }
+
+    .hero__section {
+        row-gap: 18px;
+    }
+
+    .hero__section_margin {
+        margin-left: 40px;
+    }
+
+    .hero__section__h2 {
+        font-size: 39px;
+        line-height: 48px;
+    }
+
+    .hero__section__button {
+        margin-top: 7px;
+    }
+
+    .hero__social {
+        top: 139px;
+    }
+
+}

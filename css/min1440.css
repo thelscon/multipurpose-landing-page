@@ -19,6 +19,10 @@
         padding: 26px 135px;
     }
 
+    .hero__header::after {
+        width: 100vw;
+    }
+
     .hero__header__nav {
         grid-template-columns: repeat(6, fit-content(100%));
         column-gap: 38px;
