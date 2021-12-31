@@ -39,21 +39,21 @@
         height: 429px;
     }
 
-    .hero__section {
+    .hero__block-text {
         row-gap: 11px;
     }
 
-    .hero__section_margin {
+    .hero__block-text_margin {
         margin: 23px 0px 0px 135px;
     }
 
-    .hero__section__h2 {
+    .hero__block-text__h2 {
         font-size: 48px;
         font-weight: 700;
         line-height: 59px;
     }
 
-    .hero__section__button {
+    .button-contact-us {
         margin-top: 39px;
     }
 

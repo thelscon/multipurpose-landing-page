@@ -36,21 +36,17 @@
         height: 207px;
     }
 
-    .hero__section {
+    .hero__block-text {
         row-gap: 18px;
     }
 
-    .hero__section_margin {
+    .hero__block-text_margin {
         margin-left: 40px;
     }
 
-    .hero__section__h2 {
+    .hero__block-text__h2 {
         font-size: 39px;
         line-height: 48px;
-    }
-
-    .hero__section__button {
-        margin-top: 7px;
     }
 
     .hero__social {

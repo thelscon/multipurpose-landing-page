@@ -71,7 +71,7 @@
         justify-self: center;
     }
 
-    .hero__section {
+    .hero__block-text {
         row-gap: 18px;
         justify-items: center;
     }
@@ -81,22 +81,18 @@
         height: 225px;
     }
 
-    .hero__section_margin {
+    .hero__block-text_margin {
         margin: 0px 27px 0px 26px;
     }
 
-    .hero__section__h2 {
+    .hero__block-text__h2 {
         font-size: 31px;
         line-height: 39px;
         text-align: center;
     }
 
-    .hero__section__p {
+    .hero__block-text__p {
         text-align: center;
-    }
-
-    .hero__section__button {
-        margin-top: 7px;
     }
 
     .hero__wrap-social {
