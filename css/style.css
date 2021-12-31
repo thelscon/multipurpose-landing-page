@@ -75,13 +75,20 @@ body {
     cursor: pointer;
 }
 
-.block-text {}
+.block-text {
+    display: grid;
+    justify-items: center;
+
+    font-family: 'Work Sans';
+}
 
 .block-text__h3 {}
 
 .block-text__h2 {}
 
-.block-text__p {}
+.block-text__p {
+    text-align: center;
+}
 
 .hero {
     position: relative;
@@ -231,3 +238,22 @@ body {
     fill: #FFFFFF;
 }
 
+.about-us {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+
+    font-family: 'Work Sans';
+}
+
+.about-us__cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 343px);
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
