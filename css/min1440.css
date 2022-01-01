@@ -1,5 +1,9 @@
 @media (min-width: 1440px) {
 
+    .block-text__h2 {
+        margin: 7px 0px 0px 0px;
+    }
+
     .logo {
         font-weight: 600;
         line-height: 48px;
@@ -59,6 +63,42 @@
 
     .hero__social {
         top: 317px;
+    }
+    
+    .about-us {
+        row-gap: 60px;
+        column-gap: 73px;
+    }
+
+    .about-us__img {
+        height: 352px;
+        margin: 0px 42px 0px 147px;
+    }
+
+    .block-text {
+        margin: 0px 135px 0px 0px;
+        justify-items: start;
+    }
+
+    .about-us__cards {
+        padding: 0px 135px;
+        grid-template-columns: repeat(auto-fit, 270px);
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+
+    .about-us__card {
+        row-gap: 36px;
+    }
+
+    .about-us__wrap {
+        margin: 25px 0px 0px 0px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .about-us__card__p {
+        margin: 0px 33px 21px 31px;
     }
 
 }

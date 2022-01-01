@@ -33,4 +33,19 @@
         display: grid;
     }
 
+    .about-us {
+        padding: 120px 0px;
+        grid-template-areas:    'about-us-A about-us-B'
+                                'about-us-C about-us-C';
+        justify-content: space-between;
+    }
+
+    .about-us__img {
+        justify-self: end;
+    }
+
+    .about-us__cards {
+        justify-content: space-between;
+    }
+
 }

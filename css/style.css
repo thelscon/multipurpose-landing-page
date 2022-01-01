@@ -76,8 +76,10 @@ body {
 }
 
 .block-text {
+    grid-area: about-us-B;
     display: grid;
-    justify-items: center;
+    row-gap: 18px;
+    align-content: start;
 
     font-family: 'Work Sans';
 }
@@ -86,8 +88,10 @@ body {
 
 .block-text__h2 {}
 
-.block-text__p {
-    text-align: center;
+.block-text__p {}
+
+.button-contact-us {
+    margin: 7px 0px 0px 0px;
 }
 
 .hero {
@@ -239,21 +243,53 @@ body {
 }
 
 .about-us {
+    max-width: 1440px;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
     justify-items: center;
 
     font-family: 'Work Sans';
 }
 
+.about-us__img {
+    grid-area: about-us-A;
+}
+
 .about-us__cards {
+    grid-area: about-us-C;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 343px);
-    justify-content: center;
     justify-items: center;
     align-content: center;
     align-items: center;
+}
+
+.about-us__card {
+    display: grid;
+    justify-items: center;
+}
+
+.about-us__wrap {
+    border-radius: 50%;
+}
+
+
+.about-us__wrap-one {
+    background: url(../images/6.svg) no-repeat center #FF5300;
+}
+
+.about-us__wrap-two {
+    background: url(../images/7.svg) no-repeat center #7B7B7B;
+}
+
+.about-us__wrap-three {
+    background: url(../images/8.svg) no-repeat center #00ACFF;
+}
+
+.about-us__wrap-four {
+    background: url(../images/9.svg) no-repeat center #373737;
+}
+
+.about-us__card__p{
+    text-align: center;
 }

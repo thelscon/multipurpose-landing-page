@@ -103,4 +103,47 @@
         display: none;
     }
 
+    .about-us {
+        padding: 50px 0px;
+        row-gap: 50px;
+
+        grid-template-areas:    'about-us-A'
+                                'about-us-B'
+                                'about-us-C';
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    .block-text {
+        margin: 0px 25px 0px 24px;
+        justify-items: center;
+    }
+
+    .about-us__cards {
+        padding: 0px 16px;
+        grid-template-columns: repeat(auto-fit, 343px);
+        column-gap: 25px;
+        row-gap: 25px;
+        justify-content: center;
+    }
+    
+    .block-text__p {
+        text-align: center;
+    }
+
+    .about-us__card {
+        width: 100%;
+        row-gap: 37px;
+    }
+
+    .about-us__wrap {
+        margin: 25px 0px 0px 0px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .about-us__card__p {
+        margin: 0px 43px 0px 42px;
+    }
+
 }

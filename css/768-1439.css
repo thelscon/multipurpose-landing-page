@@ -53,4 +53,39 @@
         top: 139px;
     }
 
+    .about-us {
+        row-gap: 84px;
+        column-gap: 52px;
+    }
+
+    .about-us__img {
+        margin: 0px 28px 0px 62px;
+    }
+
+    .block-text {
+        margin: 0px 40px 0px 0px;
+        justify-items: start;
+    }
+
+    .about-us__cards {
+        padding: 0px 40px;
+        grid-template-columns: repeat(auto-fit, 154px);
+        column-gap: 24px;
+        row-gap: 24px;
+    }
+
+    .about-us__card {
+        row-gap: 25px;
+    }
+
+    .about-us__wrap {
+        margin: 35px 0px 0px 0px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .about-us__card__p{
+        margin: 0px 11px 0px 10px;
+    }
+
 }
