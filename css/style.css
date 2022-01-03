@@ -64,7 +64,7 @@ body {
     background-color: #FF5300;
     border-radius: 5px;
     border: 0;
-    padding: 13px 21px;
+    padding: 13px 22px 12px 19px;
     font-family: 'Work Sans';
     font-size: 20px;
     font-weight: 500;
@@ -72,6 +72,10 @@ body {
     color: #FFFFFF;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1), 4px 5px 15px rgba(255, 83, 0, 0.4);
     cursor: pointer;
+}
+
+.button-contact-us_about-us-margin {
+    margin-top: 7px;
 }
 
 .block-text {
@@ -101,8 +105,8 @@ body {
     color: #7B7B7B;
 }
 
-.button-contact-us {
-    margin: 7px 0px 0px 0px;
+.span-color {
+    color: #FF5300;
 }
 
 .hero {
@@ -146,10 +150,6 @@ body {
 
 .logo:focus {
     outline: 1px solid #FF5300;
-}
-
-.span-color {
-    color: #FF5300;
 }
 
 .hero__header__nav {

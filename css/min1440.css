@@ -7,6 +7,10 @@
         line-height: 48px;
     }
 
+    .button-contact-us_hero-margin {
+        margin-top: 32px;
+    }
+
     .logo {
         font-weight: 600;
         line-height: 48px;
@@ -14,9 +18,9 @@
     }
 
     .hero {
-        padding-bottom: 153px;
+        padding-bottom: 157px;
         column-gap: 35px;
-        row-gap: 153px;
+        row-gap: 149px;
     }
 
     .hero__header {
@@ -51,17 +55,13 @@
     }
 
     .hero__block-text_margin {
-        margin: 23px 0px 0px 135px;
+        margin: 27px 0px 0px 135px;
     }
 
     .hero__block-text__h2 {
         font-size: 48px;
         font-weight: 700;
         line-height: 59px;
-    }
-
-    .button-contact-us {
-        margin-top: 39px;
     }
 
     .hero__social {
