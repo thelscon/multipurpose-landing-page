@@ -60,7 +60,7 @@
         line-height: calc(683px / 6);
         font-size: 25px;
     }
-    .hero__header__nav__a:hover {justify-content: space-evenly;
+    .hero__header__nav__a:hover {
         color: #FF5300;
     }
 
