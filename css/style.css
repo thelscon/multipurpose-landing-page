@@ -74,10 +74,6 @@ body {
     cursor: pointer;
 }
 
-.button-contact-us_about-us-margin {
-    margin-top: 7px;
-}
-
 .block-text {
     grid-area: about-us-B;
     display: grid;
@@ -315,3 +311,26 @@ body {
     text-align: center;
     color: #373737;
 }
+
+.our-expereince {
+    max-width: 1440px;
+    width: 100%;
+    display: grid;
+    grid-template-areas:    'about-us-B'
+                            'our-expereince-A';
+}
+
+.our-expereince__group {
+    grid-area: our-expereince-A;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 343px);
+    justify-content: center;
+    column-gap: 25px;
+    row-gap: 25px;
+}
+
+.our-expereince__group__card {
+    display: grid;
+}
+
+.our-expereince__group__card__span {}
