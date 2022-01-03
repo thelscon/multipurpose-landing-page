@@ -8,12 +8,16 @@
         margin-top: 7px;
     }
 
+    .about-us::after {
+        width: 100%;
+    }
+
     .about-us__img {
         height: 192px;
     }
 
     .about-us__card__p {
-        margin: 0px 0px 18px 0px;
+        margin-bottom: 18px;
     }
 
 }

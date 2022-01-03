@@ -1,5 +1,9 @@
 @media (min-width: 768px) {
 
+    .block-text__h2 {
+        text-align: left;
+    }
+
     .hero {
         grid-template-areas:    'hero-A hero-A'
                                 'hero-C hero-B';
@@ -25,6 +29,10 @@
         text-align: left;
     }
 
+    .hero__image {
+        justify-self: start;
+    }
+
     .hero__wrap-social {
         width: 100vw;
     }
@@ -37,7 +45,6 @@
         padding: 120px 0px;
         grid-template-areas:    'about-us-A about-us-B'
                                 'about-us-C about-us-C';
-        justify-content: space-between;
     }
 
     .about-us__img {
@@ -45,7 +52,13 @@
     }
 
     .about-us__cards {
-        justify-content: space-between;
+        justify-content: space-evenly;
+    }
+
+    .about-us__card__p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
     }
 
 }

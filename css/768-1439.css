@@ -1,5 +1,16 @@
 @media (min-width: 768px) and (max-width: 1440px) {
 
+    .block-text {
+        margin: 0px 40px 0px 0px;
+        justify-items: start;
+    }
+
+    .block-text__h2 {
+        font-size: 31px;
+        font-weight: 600;
+        line-height: 39px;
+    }
+
     .logo {
         font-weight: 600;
         line-height: 25px;
@@ -8,6 +19,7 @@
 
     .hero {
         padding-bottom: 73px;
+        grid-template-columns: minmax(min-content, max-content) minmax(max-content, 1fr);
         column-gap: 19px;
         row-gap: 73px;
     }
@@ -59,12 +71,7 @@
     }
 
     .about-us__img {
-        margin: 0px 28px 0px 62px;
-    }
-
-    .block-text {
-        margin: 0px 40px 0px 0px;
-        justify-items: start;
+        margin: 121px 0px 0px 62px;
     }
 
     .about-us__cards {
@@ -85,7 +92,8 @@
     }
 
     .about-us__card__p{
-        margin: 0px 11px 0px 10px;
+        margin-right: 11px;
+        margin-left: 10px;
     }
 
 }

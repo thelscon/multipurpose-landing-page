@@ -1,5 +1,24 @@
 @media (max-width: 767px) {
 
+    .block-text {
+        margin: 0px 25px 0px 24px;
+        justify-items: center;
+    }
+
+    .block-text__h2 {
+        text-align: center;
+    }
+
+    .block-text__h2 {
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 31px;
+    }
+    
+    .block-text__p {
+        text-align: center;
+    }
+
     .logo {
         font-weight: 500;
         line-height: 31px;
@@ -12,6 +31,7 @@
         grid-template-areas:    'hero-A'
                                 'hero-B'
                                 'hero-C';
+                                grid-template-columns: 1fr;
     }
 
     .hero__header {
@@ -40,7 +60,7 @@
         line-height: calc(683px / 6);
         font-size: 25px;
     }
-    .hero__header__nav__a:hover {
+    .hero__header__nav__a:hover {justify-content: space-evenly;
         color: #FF5300;
     }
 
@@ -111,12 +131,6 @@
                                 'about-us-B'
                                 'about-us-C';
         grid-template-columns: 1fr;
-        justify-content: center;
-    }
-
-    .block-text {
-        margin: 0px 25px 0px 24px;
-        justify-items: center;
     }
 
     .about-us__cards {
@@ -125,10 +139,6 @@
         column-gap: 25px;
         row-gap: 25px;
         justify-content: center;
-    }
-    
-    .block-text__p {
-        text-align: center;
     }
 
     .about-us__card {
@@ -143,7 +153,12 @@
     }
 
     .about-us__card__p {
-        margin: 0px 43px 0px 42px;
+        margin-right: 43px;
+        margin-left: 42px;
+
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25px;
     }
 
 }

@@ -2,6 +2,9 @@
 
     .block-text__h2 {
         margin: 7px 0px 0px 0px;
+        font-size: 39px;
+        font-weight: 600;
+        line-height: 48px;
     }
 
     .logo {
@@ -70,9 +73,13 @@
         column-gap: 73px;
     }
 
+    .about-us::after {
+        width: 100vw;
+    }
+
     .about-us__img {
         height: 352px;
-        margin: 0px 42px 0px 147px;
+        margin: 83px 0px 0px 147px;
     }
 
     .block-text {
