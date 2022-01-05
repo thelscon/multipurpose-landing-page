@@ -313,23 +313,34 @@ body {
 }
 
 .our-expereince {
+    position: relative;
     max-width: 1440px;
     width: 100%;
     display: grid;
-    grid-template-areas:    'about-us-B'
-                            'our-expereince-A';
+    justify-content: center;
+    justify-items: center;
+    
+    font-family: 'Work Sans';
+}
+
+.our-expereince::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    height: 100%;
+    background-color: #FFF7F4;
 }
 
 .our-expereince__group {
     grid-area: our-expereince-A;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 343px);
     justify-content: center;
-    column-gap: 25px;
-    row-gap: 25px;
+    justify-items: center;
+    text-align: center;
 }
 
 .our-expereince__group__card {
+    width: 100%;
     display: grid;
 }
 

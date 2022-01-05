@@ -1,7 +1,7 @@
 @media (min-width: 768px) {
 
-    .block-text__h2 {
-        text-align: left;
+    .block-text {
+        justify-items: start;
     }
 
     .hero {
@@ -59,6 +59,15 @@
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
+    }
+
+    .our-expereince {
+        padding: 60px 0px;
+        grid-template-areas:    'about-us-B our-expereince-A';
+    }
+
+    .our-expereince__group {
+        justify-self: start;
     }
 
 }

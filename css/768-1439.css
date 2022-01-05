@@ -1,8 +1,11 @@
 @media (min-width: 768px) and (max-width: 1439px) {
 
-    .block-text {
+    .block-text_about-us {
         margin: 0px 40px 0px 0px;
-        justify-items: start;
+    }
+
+    .block-text_our-expereince {
+        margin-left: 40px;
     }
 
     .block-text__h2 {
@@ -17,6 +20,10 @@
 
     .button-contact-us_about-us-margin {
         margin-top: 14px;
+    }
+
+    .button-contact-us_our-expereince-margin {
+        margin-top: 13px;
     }
 
     .logo {
@@ -102,6 +109,44 @@
     .about-us__card__p{
         margin-right: 11px;
         margin-left: 10px;
+    }
+
+    .our-expereince {
+        column-gap: 24px;
+    }
+
+    .our-expereince__group {
+        margin-top: 42px;
+        margin-right: 40px;
+        grid-template-columns: repeat(2, 162px);
+        grid-template-rows: repeat(340, 1px);
+        column-gap: 8px;
+    }
+
+    .our-expereince__group__card-global {
+        grid-row-start: 1;
+        grid-row-end: 151;
+        background-color: aqua;
+    }
+
+    .our-expereince__group__card-project {
+        grid-row-start: 33;
+        grid-row-end: 183;
+        background-color: aquamarine;
+    }
+
+    .our-expereince__group__card-team {
+        margin-top: 8px;
+        grid-row-start: 151;
+        grid-row-end: 309;
+        background-color: bisque;
+    }
+
+    .our-expereince__group__card-4-our {
+        margin-top: 8px;
+        grid-row-start: 183;
+        grid-row-end: 341;
+        background-color: burlywood;
     }
 
 }

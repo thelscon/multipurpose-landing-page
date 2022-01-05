@@ -1,5 +1,14 @@
 @media (min-width: 1440px) {
 
+    .block-text_about-us {
+        margin: 0px 135px 0px 0px;
+    }
+
+    .block-text_our-expereince {
+        margin-top: 22px;
+        margin-left: 135px;
+    }
+
     .block-text__h2 {
         margin: 7px 0px 0px 0px;
         font-size: 39px;
@@ -13,6 +22,10 @@
 
     .button-contact-us_about-us-margin {
         margin-top: 12px;
+    }
+
+    .button-contact-us_our-expereince-margin {
+        margin-top: 37px;
     }
 
     .logo {
@@ -86,11 +99,6 @@
         margin: 83px 0px 0px 147px;
     }
 
-    .block-text {
-        margin: 0px 135px 0px 0px;
-        justify-items: start;
-    }
-
     .about-us__cards {
         padding: 0px 135px;
         grid-template-columns: repeat(auto-fit, 270px);
@@ -110,6 +118,47 @@
 
     .about-us__card__p {
         margin: 0px 33px 21px 31px;
+    }
+
+    .our-expereince {
+        column-gap: 30px;
+    }
+
+    .our-expereince::after {
+        width: 100vw;
+    }
+
+    .our-expereince__group {
+        margin-right: 135px;
+        grid-template-columns: repeat(2, 270px);
+        grid-template-rows: repeat(553, 1px);
+        column-gap: 30px;
+    }
+
+    .our-expereince__group__card-global {
+        grid-row-start: 1;
+        grid-row-end: 251;
+        background-color: aqua;
+    }
+
+    .our-expereince__group__card-project {
+        grid-row-start: 24;
+        grid-row-end: 274;
+        background-color: aquamarine;
+    }
+
+    .our-expereince__group__card-team {
+        margin-top: 30px;
+        grid-row-start: 251;
+        grid-row-end: 531; 
+        background-color: bisque;
+    }
+
+    .our-expereince__group__card-4-our {
+        margin-top: 30px;
+        grid-row-start: 274;
+        grid-row-end: 554;
+        background-color: burlywood;
     }
 
 }

@@ -1,22 +1,22 @@
 @media (max-width: 767px) {
 
     .block-text {
-        margin: 0px 25px 0px 24px;
         justify-items: center;
+        text-align: center;
     }
 
-    .block-text__h2 {
-        text-align: center;
+    .block-text_about-us {
+        margin: 0px 25px 0px 24px;
+    }
+    
+    .block-text_our-expereince {
+        margin: 0px 27px;
     }
 
     .block-text__h2 {
         font-size: 25px;
         font-weight: 500;
         line-height: 31px;
-    }
-    
-    .block-text__p {
-        text-align: center;
     }
 
     .button-contact-us_hero-margin {
@@ -25,6 +25,11 @@
 
     .button-contact-us_about-us-margin {
         margin-top: 12px;
+    }
+
+    .button-contact-us_our-expereince-margin {
+        margin-top: 8px;
+        
     }
 
     .logo {
@@ -167,6 +172,19 @@
         font-size: 20px;
         font-weight: 500;
         line-height: 25px;
+    }
+
+    .our-expereince {
+        padding: 50px 0px;
+        grid-template-areas:    'about-us-B'
+                                'our-expereince-A';
+        row-gap: 50px;
+    }
+    
+    .our-expereince__group {
+        grid-template-columns: repeat(auto-fit, 343px);
+        column-gap: 25px;
+        row-gap: 25px;
     }
 
 }

@@ -16,4 +16,8 @@
         margin-bottom: 18px;
     }
 
+    .our-expereince::after {
+        width: 100%;
+    }
+
 }
