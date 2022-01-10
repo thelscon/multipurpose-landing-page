@@ -1,0 +1,32 @@
+   
+    .our-expereince__group {
+        grid-template-columns: repeat(2, 162px);
+        grid-template-rows: repeat(170, 2px);
+        column-gap: 8px;
+    }
+
+    .our-expereince__group__card-global {
+        grid-row-start: 1;
+        grid-row-end: 76;
+        background-color: aqua;
+    }
+
+    .our-expereince__group__card-project {
+        grid-row-start: 17;
+        grid-row-end: 92;
+        background-color: aquamarine;
+    }
+
+    .our-expereince__group__card-team {
+        margin-top: 8px;
+        grid-row-start: 76;
+        grid-row-end: 155;
+        background-color: bisque;
+    }
+
+    .our-expereince__group__card-4-our {
+        margin-top: 8px;
+        grid-row-start: 92;
+        grid-row-end: 171;
+        background-color: burlywood;
+    }

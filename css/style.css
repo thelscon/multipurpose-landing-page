@@ -342,6 +342,26 @@ body {
 .our-expereince__group__card {
     width: 100%;
     display: grid;
+    align-content: center;
+
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
 }
 
-.our-expereince__group__card__span {}
+.our-expereince__group__h3 {
+    margin-left: 1em;
+    margin-right: 1em;
+    color: #373737;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.our-expereince__group__card__p {
+    margin-left: 1em;
+    margin-right: 1em;
+    color: #7B7B7B;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

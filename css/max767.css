@@ -187,4 +187,22 @@
         row-gap: 25px;
     }
 
+    .our-expereince__group__card {
+        row-gap: 18px;
+    }
+
+    .our-expereince__group__h3 {
+        margin-top: 71px;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 59px;
+    }
+
+    .our-expereince__group__card__p {
+        margin-bottom: 71px;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 31px;
+    }
+
 }
