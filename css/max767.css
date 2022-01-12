@@ -38,6 +38,10 @@
         font-size: 25px;
     }
 
+    .hero__social {
+        display: none;
+    }
+
     .hero {
         row-gap: 50px;
         padding-bottom: 50px;
@@ -130,10 +134,6 @@
 
     .hero__wrap-social {
         width: 100%;
-    }
-
-    .hero__social {
-        display: none;
     }
 
     .about-us {

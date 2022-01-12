@@ -4,6 +4,10 @@
         justify-items: start;
     }
 
+    .hero__social {
+        display: grid;
+    }
+
     .hero {
         grid-template-areas:    'hero-A hero-A'
                                 'hero-C hero-B';
@@ -35,10 +39,6 @@
 
     .hero__wrap-social {
         width: 100vw;
-    }
-
-    .hero__social {
-        display: grid;
     }
 
     .about-us {

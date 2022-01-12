@@ -105,6 +105,47 @@ body {
     color: #FF5300;
 }
 
+.social {
+    position: absolute;
+    row-gap: 5px;
+}
+
+.hero__social {
+    right: 0px;
+    z-index: 0;
+}
+
+.team__social {
+    top: 29px;
+    right: 0px;
+    display: grid;
+    opacity: 0;
+    transition: 0.1s;
+}
+
+.social__a {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.social__a:hover {
+    background-color: #FF5300;
+    box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+}
+
+.social__a__icon {
+    fill: #FF5300;
+}
+
+.social__a:hover .social__a__icon {
+    fill: #FFFFFF;
+}
+
 .hero {
     position: relative;
     width: 100%;
@@ -216,36 +257,6 @@ body {
     align-content: center;
 
     background-color: #FFF7F4;
-}
-
-.hero__social {
-    position: absolute;
-    right: 0px;
-    z-index: 0;
-    row-gap: 5px;
-}
-
-.hero__social__a {
-    width: 40px;
-    height: 40px;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    background-color: #FFFFFF;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-}
-
-.hero__social__a:hover {
-    background-color: #FF5300;
-    box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
-}
-
-.hero__social__a__icon {
-    fill: #FF5300;
-}
-
-.hero__social__a:hover .hero__social__a__icon {
-    fill: #FFFFFF;
 }
 
 .about-us {
@@ -386,4 +397,12 @@ body {
     grid-template-columns: repeat(4, 270px);
     overflow-y: hidden;
     overflow-x: auto;
+}
+
+.team__person {
+    position: relative;
+}
+
+.team__person:hover .team__social {
+    opacity: 1;
 }
