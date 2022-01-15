@@ -205,9 +205,31 @@
         line-height: 31px;
     }
 
+    .team {
+        margin-top: 50px;
+        row-gap: 18px;
+    }
+
     .team__block-text__h2 {
         margin-left: 16px;
         margin-right: 16px;
+    }
+
+    .team__wrap-persons {
+        width: calc(100% - 16px);
+        justify-self: end;
+    }
+
+    .persons {
+        column-gap: 15px;
+    }
+
+    .team__person {
+        width: 270px;
+    }
+
+    .person__name {
+        margin-top: 24px;
     }
 
 }

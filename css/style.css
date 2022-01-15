@@ -376,6 +376,8 @@ body {
 }
 
 .team {
+    max-width: 1440px;
+    width: 100%;
     display: grid;
     justify-items: center;
 
@@ -390,19 +392,33 @@ body {
     text-align: center;
 }
 
-.team__persons {
-    width: 100%;
-    height: 100%;
-    display: grid ;
-    grid-template-columns: repeat(4, 270px);
+.wrap-persons {
+    display: grid;
     overflow-y: hidden;
     overflow-x: auto;
 }
 
-.team__person {
-    position: relative;
+.persons {
+    display: grid ;
+    grid-auto-flow: column;
+    justify-content: center;
 }
 
-.team__person:hover .team__social {
+.person {
+    position: relative;
+    display: grid;
+    align-content: start;
+}
+
+.person:hover .team__social {
     opacity: 1;
+}
+
+.person__position {
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+.photo {
+    max-width: 100%;
 }

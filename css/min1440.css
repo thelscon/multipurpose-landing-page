@@ -175,4 +175,24 @@
         background-color: burlywood;
     }
 
+    .team__block-text__h2 {
+        margin-top: 25px;
+    }
+
+    .persons {
+        column-gap: 30px;
+    }
+
+    .team__persons {
+        margin-top: 35px;
+    }
+
+    .person__name {
+        margin-top: 24px;
+    }
+
+    .team__person {
+        width: 270px;
+    }
+
 }
