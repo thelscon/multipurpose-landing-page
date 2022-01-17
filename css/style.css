@@ -399,6 +399,7 @@ body {
 }
 
 .persons {
+    padding: 9px 10px 11px 10px;
     display: grid ;
     grid-auto-flow: column;
     justify-content: center;
@@ -407,7 +408,10 @@ body {
 .person {
     position: relative;
     display: grid;
+    justify-items: center;
     align-content: start;
+    text-align: right;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
 }
 
 .person:hover .team__social {
@@ -421,4 +425,20 @@ body {
 
 .photo {
     max-width: 100%;
+}
+
+.name {
+    font-family: 'Work Sans';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #000000;
+}
+
+.position {
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #7B7B7B;
 }

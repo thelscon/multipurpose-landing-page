@@ -14,6 +14,7 @@ if ( window.innerWidth < 768 ) {
     aboutUs__p.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur imperdiet at a augue ullamcorper. Leo faucibus feugiat rutrum aenean<br><br>Ornare etiam erat volutpat tempor fringilla mi. Elit a blandit faucibus est, dui interdum ut amet.' ;
     ourExpereince__h2.innerHTML = 'We Have Completed <br><span class="span-color">150+ Projects</span><br> Succesfully' ;
     ourExpereince__p.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur imperdiet at a augue ullamcorper.<br><br>Ornare etiam erat volutpat tempor fringilla mi. Elit a blandit faucibus est, dui interdum ut amet.' ;
+    teamH2.innerHTML = 'We Have<br><span class="span-color">Some Awesome</span><br>People' ;
 }
 
 if ( window.innerWidth >= 768 && window.innerWidth < 1440 ) {
@@ -21,6 +22,11 @@ if ( window.innerWidth >= 768 && window.innerWidth < 1440 ) {
     ourExpereince__h2.innerHTML = 'We Have<br>Completed <span class="span-color">150+<br>Projects</span> Succesfully' ;
     ourExpereince__p.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur imperdiet at a augue ullamcorper. Leo faucibus feugiat rutrum aenean.<br><br>Ornare etiam erat volutpat tempor fringilla mi. Elit a blandit faucibus est, dui interdum ut amet. Adipiscing feugiat vel at posuere in.' ;
 }
+
+if ( window.innerWidth >= 768 ) {
+    teamH2.innerHTML = 'We Have<br><span class="span-color">Some Awesome</span> People' ;
+}
+else {}
 
 if ( window.innerWidth >= 1440 ) {
     hero__header__choiсeOfStyle.style.backgroundImage = 'url(./images/3.svg)' ;
@@ -40,6 +46,7 @@ window.addEventListener ( 'resize' , () => {
         aboutUs__p.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur imperdiet at a augue ullamcorper. Leo faucibus feugiat rutrum aenean<br><br>Ornare etiam erat volutpat tempor fringilla mi. Elit a blandit faucibus est, dui interdum ut amet.' ;
         ourExpereince__h2.innerHTML = 'We Have Completed <br><span class="span-color">150+ Projects</span><br> Succesfully' ;
         ourExpereince__p.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur imperdiet at a augue ullamcorper.<br><br>Ornare etiam erat volutpat tempor fringilla mi. Elit a blandit faucibus est, dui interdum ut amet.' ;
+        teamH2.innerHTML = 'We Have<br><span class="span-color">Some Awesome</span><br>People' ;
     }
     
     if ( window.innerWidth >= 768 && window.innerWidth < 1440 ) {
@@ -47,6 +54,11 @@ window.addEventListener ( 'resize' , () => {
         ourExpereince__h2.innerHTML = 'We Have<br>Completed <span class="span-color">150+<br>Projects</span> Succesfully' ;
         ourExpereince__p.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur imperdiet at a augue ullamcorper. Leo faucibus feugiat rutrum aenean.<br><br>Ornare etiam erat volutpat tempor fringilla mi. Elit a blandit faucibus est, dui interdum ut amet. Adipiscing feugiat vel at posuere in.' ;
     }
+
+    if ( window.innerWidth >= 768 ) {
+        teamH2.innerHTML = 'We Have<br><span class="span-color">Some Awesome</span> People' ;
+    }
+    else {}
 
     if ( window.innerWidth >= 1440 ) {
         hero__header__choiсeOfStyle.style.backgroundImage = 'url(./images/3.svg)' ;
